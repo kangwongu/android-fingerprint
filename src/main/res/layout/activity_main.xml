@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGray"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/TextView_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finger Printing"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icon_fingerprint"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="100dp"
+        android:weightSum="10"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        >
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout_systemsettings"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/btn_deeogray"
+            android:clickable="true"
+            android:layout_weight="5"
+            android:layout_marginRight="12dp"
+            android:paddingTop="35dp"
+            >
+
+            <ImageView
+                android:id="@+id/ImageView_systemsettings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_setting"
+                android:background="@null"
+                android:layout_marginBottom="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="시스템 설정"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_below="@+id/ImageView_systemsettings"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout_userinfo"
+            android:clickable="true"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/btn_deeogray"
+            android:layout_weight="5"
+            android:paddingTop="35dp"
+            >
+
+            <ImageView
+                android:id="@+id/ImageView_userinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_userinfo"
+                android:background="@null"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="사용자 정보 관리"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_below="@+id/ImageView_userinfo"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
