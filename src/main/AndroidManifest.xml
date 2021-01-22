@@ -19,6 +19,12 @@
         <activity android:name=".SystemSettingsActivity">
 
         </activity>
+        <activity android:name=".UserInfomationActivity">
+
+        </activity>
+        <activity android:name=".FirstRunActivity">
+
+        </activity>
     </application>
 
 </manifest>
