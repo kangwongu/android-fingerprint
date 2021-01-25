@@ -1,4 +1,3 @@
-# android-fingerprint
 # 졸업작품
    
 - ~20210125
