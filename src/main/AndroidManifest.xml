@@ -25,6 +25,12 @@
         <activity android:name=".FirstRunActivity">
 
         </activity>
+        <activity android:name=".LockApplicationActivity">
+
+        </activity>
+        <activity android:name=".FingerPrintMethodActivity">
+
+        </activity>
     </application>
 
 </manifest>

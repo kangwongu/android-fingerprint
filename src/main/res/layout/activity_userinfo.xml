@@ -6,7 +6,112 @@
     android:layout_height="match_parent"
     android:background="@color/colorGray"
     android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
     >
 
+    <TextView
+        android:id="@+id/TextView_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finger Printing"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icon_fingerprint"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_deeogray"
+        android:clickable="true"
+        android:layout_marginTop="70dp"
+        android:paddingLeft="20dp"
+        >
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_useraccesbility"
+            android:background="@null"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="권한 부여 및 회수"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_centerInParent="true"
+            android:paddingLeft="90dp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_deeogray"
+        android:clickable="true"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_userfingerprintapply"
+            android:background="@null"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="사용자 지문 추가 저장"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_centerInParent="true"
+            android:paddingLeft="90dp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_deeogray"
+        android:clickable="true"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_userfingerprintdelete"
+            android:background="@null"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="사용자 지문 삭제"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_centerInParent="true"
+            android:paddingLeft="90dp"
+
+            />
+    </RelativeLayout>
 
 </LinearLayout>

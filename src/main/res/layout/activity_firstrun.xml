@@ -19,8 +19,8 @@
 
         <ImageView
             android:id="@+id/ImageView_logo"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:src="@drawable/icon_fingerprint"
             android:background="@null"
             android:layout_centerInParent="true"
@@ -30,10 +30,10 @@
             android:layout_height="wrap_content"
             android:text="Finger Printing"
             android:textColor="#ffffff"
-            android:textSize="26sp"
+            android:textSize="25sp"
             android:textStyle="bold"
-            android:gravity="center"
             android:layout_toRightOf="@+id/ImageView_logo"
+            android:paddingLeft="10dp"
             />
 
     </RelativeLayout>

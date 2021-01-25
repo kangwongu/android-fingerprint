@@ -30,6 +30,7 @@
         />
 
     <RelativeLayout
+        android:id="@+id/RelativeLayout_lockapplication"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@drawable/btn_deeogray"
@@ -39,7 +40,6 @@
         >
 
         <ImageView
-            android:id="@+id/ImageView_lockapplication"
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:src="@drawable/icon_lockapplication"
@@ -60,6 +60,7 @@
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/RelativeLayout_fingerprintmethod"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@drawable/btn_deeogray"
@@ -69,10 +70,9 @@
         >
 
         <ImageView
-            android:id="@+id/ImageView_systemsettings"
             android:layout_width="50dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/icon_fingerprint"
+            android:src="@drawable/icon_fingerprintsettings"
             android:background="@null"
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
@@ -84,8 +84,8 @@
             android:textColor="#ffffff"
             android:textSize="20dp"
             android:gravity="center"
-            android:layout_centerInParent="true"
             android:paddingLeft="40dp"
+            android:layout_centerInParent="true"
 
             />
     </RelativeLayout>

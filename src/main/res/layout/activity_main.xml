@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     android:background="@color/colorGray"
     android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
     >
 
     <TextView
@@ -27,76 +29,67 @@
         android:layout_marginTop="50dp"
         />
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <RelativeLayout
+        android:id="@+id/RelativeLayout_systemsettings"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:paddingTop="100dp"
-        android:weightSum="10"
-        android:paddingLeft="12dp"
-        android:paddingRight="12dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_deeogray"
+        android:clickable="true"
+        android:layout_marginTop="70dp"
+        android:paddingLeft="20dp"
         >
 
-        <RelativeLayout
-            android:id="@+id/RelativeLayout_systemsettings"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:background="@drawable/btn_deeogray"
-            android:clickable="true"
-            android:layout_weight="5"
-            android:layout_marginRight="12dp"
-            android:paddingTop="35dp"
-            >
+        <ImageView
+            android:id="@+id/ImageView_systemsettings"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_setting"
+            android:background="@null"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="시스템 설정"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
 
-            <ImageView
-                android:id="@+id/ImageView_systemsettings"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:src="@drawable/icon_setting"
-                android:background="@null"
-                android:layout_marginBottom="10dp"
-                />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="시스템 설정"
-                android:textColor="#ffffff"
-                android:textSize="20dp"
-                android:gravity="center"
-                android:layout_below="@+id/ImageView_systemsettings"
-                />
-        </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/RelativeLayout_userinfo"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_deeogray"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        >
 
-        <RelativeLayout
-            android:id="@+id/RelativeLayout_userinfo"
-            android:clickable="true"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:background="@drawable/btn_deeogray"
-            android:layout_weight="5"
-            android:paddingTop="35dp"
-            >
+        <ImageView
+            android:id="@+id/ImageView_userinfo"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_userinfo"
+            android:background="@null"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            />
 
-            <ImageView
-                android:id="@+id/ImageView_userinfo"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:src="@drawable/icon_userinfo"
-                android:background="@null"
-                android:layout_marginBottom="10dp"
-                />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="사용자 정보 관리"
-                android:textColor="#ffffff"
-                android:textSize="20dp"
-                android:gravity="center"
-                android:layout_below="@+id/ImageView_userinfo"
-                />
-        </RelativeLayout>
-    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="사용자 정보 관리"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:paddingLeft="40dp"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
 
 
 </LinearLayout>
