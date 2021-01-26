@@ -60,7 +60,7 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/RelativeLayout_userinfo"
+        android:id="@+id/RelativeLayout_userinfomation"
         android:clickable="true"
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -70,7 +70,6 @@
         >
 
         <ImageView
-            android:id="@+id/ImageView_userinfo"
             android:layout_width="45dp"
             android:layout_height="wrap_content"
             android:src="@drawable/icon_userinfo"

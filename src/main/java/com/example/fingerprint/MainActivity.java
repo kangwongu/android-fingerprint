@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         // activity_main.xml의 컴포넌트들을 변수와 매칭
         RelativeLayout_systemsettings = findViewById(R.id.RelativeLayout_systemsettings);
-        RelativeLayout_uesrinfo = findViewById(R.id.RelativeLayout_userinfo);
+        RelativeLayout_uesrinfo = findViewById(R.id.RelativeLayout_userinfomation);
        // cardview_userinfo = findViewById(R.id.cardview_userinfo);
 
         // 클릭 가능하게 설정, 클릭 시 화면전환

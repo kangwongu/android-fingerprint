@@ -31,6 +31,15 @@
         <activity android:name=".FingerPrintMethodActivity">
 
         </activity>
+        <activity android:name=".UserAccesbilityActivity">
+
+        </activity>
+        <activity android:name=".UserFingerPrintApplyActivity">
+
+        </activity>
+        <activity android:name=".UserFingerPrintDeleteActivity">
+
+        </activity>
     </application>
 
 </manifest>

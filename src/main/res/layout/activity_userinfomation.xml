@@ -30,6 +30,7 @@
         />
 
     <RelativeLayout
+        android:id="@+id/RelativeLayout_useraccesbility"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@drawable/btn_deeogray"
@@ -58,6 +59,7 @@
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/RelativeLayout_userfingerprintapply"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@drawable/btn_deeogray"
@@ -86,6 +88,7 @@
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/RelativeLayout_userfingerprintdelete"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@drawable/btn_deeogray"
