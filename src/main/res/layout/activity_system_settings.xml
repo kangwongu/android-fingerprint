@@ -10,6 +10,8 @@
     android:paddingRight="20dp"
     >
 
+
+
     <TextView
         android:id="@+id/TextView_name"
         android:layout_width="match_parent"
