@@ -10,24 +10,37 @@
     android:paddingRight="20dp"
     >
 
-
-    <androidx.appcompat.widget.Toolbar
-        app:layout_constraintTop_toTopOf="parent"
-        android:id="@+id/toolbar"
-        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <TextView
-            android:layout_width="wrap_content"
+        <View
+            android:id="@+id/view_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/black"
+            android:layout_below="@+id/toolbar"/>
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:textSize="20dp"
-            android:text="Title">
+            >
 
-        </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                android:textSize="25dp"
+                android:text="메인화면"
+                >
+            </TextView>
 
-    </androidx.appcompat.widget.Toolbar>
+        </androidx.appcompat.widget.Toolbar>
+
+    </RelativeLayout>
+
     <TextView
         android:id="@+id/TextView_name"
         android:layout_width="match_parent"
@@ -39,6 +52,7 @@
         android:gravity="center"
         android:layout_marginTop="70dp"
         />
+
     <ImageView
         android:layout_width="150dp"
         android:layout_height="100dp"
